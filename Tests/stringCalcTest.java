@@ -5,6 +5,7 @@ import org.jboss.shrinkwrap.api.asset.EmptyAsset;
 import org.jboss.shrinkwrap.api.spec.JavaArchive;
 import org.junit.runner.RunWith;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 import static org.junit.Assert.*;
@@ -44,6 +45,25 @@ public class stringCalcTest {
             // asserts that the string is equal to the sum of the two random ints
             assertEquals(fStr, StrClass.add(mStr));
         }
+    }
+
+    @org.junit.jupiter.api.Test
+    void unknownStr(){
+
+        StringCalc StrClass = new StringCalc();
+        int unknownVal = rand.nextInt(100);
+        ArrayList<Integer> nums = new ArrayList<Integer>();
+
+        int sum= 0;
+
+        for (int i = 0; i < unknownVal ; i++){
+            int rNum = rand.nextInt();
+            nums.add(rNum);
+            sum += rNum;
+        }
+
+       assertEquals(Integer.toString(sum), StrClass.add(nums.toString()));
+
     }
 
 
