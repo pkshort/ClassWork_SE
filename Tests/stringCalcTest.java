@@ -30,6 +30,14 @@ public class stringCalcTest {
         }
     }
 
+    @org.junit.jupiter.api.Test
+    void twoStr(){
+        StringCalc StrClass = new StringCalc();
+        for (int i =0; i< 10; i++){
+
+        }
+    }
+
 
     @org.junit.jupiter.api.Test
     void add(){

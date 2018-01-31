@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecfe01b0-5195-49cc-ab59-35b4eeece71f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Tests/stringCalcTest.java" afterPath="$PROJECT_DIR$/Tests/stringCalcTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/stringCalc.java" afterPath="$PROJECT_DIR$/src/StringCalc.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +31,8 @@
       <file leaf-file-name="stringCalcTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/stringCalcTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="509">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -246,12 +243,20 @@
       <updated>1516978024918</updated>
       <workItem from="1516978029026" duration="77000" />
       <workItem from="1517236535374" duration="1245000" />
-      <workItem from="1517362809944" duration="1307000" />
+      <workItem from="1517362809944" duration="1552000" />
     </task>
+    <task id="LOCAL-00001" summary="SingleString Test">
+      <created>1517364252532</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1517364252533</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2629000" />
+    <option name="totallyTimeSpent" value="2874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="829" extended-state="6" />
@@ -290,6 +295,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SingleString Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="SingleString Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -341,8 +350,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/stringCalcTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="509">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
