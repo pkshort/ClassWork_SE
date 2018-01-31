@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class stringCalc {
+public class StringCalc {
 
     /**
      *
