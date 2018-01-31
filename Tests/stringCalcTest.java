@@ -66,17 +66,6 @@ public class stringCalcTest {
 
     }
 
-
-    @org.junit.jupiter.api.Test
-    void add(){
-
-        //Random rand = new Random();
-        int rNum1 = rand.nextInt();
-        int rNum2 = rand.nextInt();
-        int rNum3 = rand.nextInt();
-        int rNum4 = rand.nextInt();
-    }
-
     @Deployment
     public static JavaArchive createDeployment() {
         return ShrinkWrap.create(JavaArchive.class)
