@@ -34,7 +34,15 @@ public class stringCalcTest {
     void twoStr(){
         StringCalc StrClass = new StringCalc();
         for (int i =0; i< 10; i++){
+            int rand1 = rand.nextInt(100);
+            int rand2 = rand.nextInt(100);
+            int sum = rand1 + rand2;
 
+            String fStr = Integer.toString(sum);
+            String mStr = Integer.toString(rand1) + "," + Integer.toString(rand2);
+
+            // asserts that the string is equal to the sum of the two random ints
+            assertEquals(fStr, StrClass.add(mStr));
         }
     }
 
